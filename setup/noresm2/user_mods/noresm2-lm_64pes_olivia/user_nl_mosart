@@ -7,5 +7,5 @@
 !        the RTM build-namelist will set do_rtm to .false. - and will ignore 
 !        any change below
 !----------------------------------------------------------------------------------
-
+rtmhist_fexcl1 = 'DIRECT_DISCHARGE_TO_OCEAN_ICE','DIRECT_DISCHARGE_TO_OCEAN_LIQ','RIVER_DISCHARGE_OVER_LAND_ICE','RIVER_DISCHARGE_OVER_LAND_LIQ','TOTAL_DISCHARGE_TO_OCEAN_ICE','TOTAL_DISCHARGE_TO_OCEAN_LIQ'
 

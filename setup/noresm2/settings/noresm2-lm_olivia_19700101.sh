@@ -1,30 +1,20 @@
 # EXPERIMENT DEFAULT SETTINGS 
 # USE VARNAME=VALUE ARGUMENT WHEN CALLING SCRIPT TO OVERRIDE DEFAULTS 
 
-START_DATE=1971-01-01
-EXPERIMENT=n209-lm_olivia_30m_seq
-REF_PATH_LOCAL='/cluster/projects/nn9039k/users/pgchiu/norcpm-noresm2_rest/NHISTfrc2_f19_tn14_LESFMIPhist-all'
-REF_DATE=1982-01-01 ## for restart file
-STOP_OPTION=nmonths
-STOP_N=1
-RESTART=3
-ACCOUNT=nn9560k
-USER_MODS_DIR=$SETUPROOT/user_mods/noresm2-lm_64pes_olivia
-USER_MODS_DIR=$SETUPROOT/user_mods/noresm2-lm_64pes_olivia_seq
 
 # experiment settings
-: ${EXPERIMENT:=noresm2-lm_lpf} # case prefix, not including _YYYYMMDD_memXX suffix 
+: ${EXPERIMENT:=n209-lm_olivia_30m} # case prefix, not including _YYYYMMDD_memXX suffix 
 : ${MEMBER1:=1} # first member  
 : ${ENSSIZE:=30} # number of members 
 : ${COMPSET:=NHISTfrc2}
-: ${USER_MODS_DIR:=$SETUPROOT/user_mods/noresm2-lm_lpf_64pes}
+: ${USER_MODS_DIR:=$SETUPROOT/user_mods/noresm2-lm_64pes_olivia}
 : ${RES:=f19_tn14}
-: ${START_DATE:=1971-01-01} # YYYY-MM-DD 
+: ${START_DATE:=1982-01-01} # YYYY-MM-DD 
 
 # initialisation settings
 : ${RUN_TYPE:=hybrid}  
 : ${REF_CASE_LIST:='NHISTfrc2_f19_tn14_LESFMIPhist-all_001 NHISTfrc2_f19_tn14_LESFMIPhist-all_002 NHISTfrc2_f19_tn14_LESFMIPhist-all_003 NHISTfrc2_f19_tn14_LESFMIPhist-all_004 NHISTfrc2_f19_tn14_LESFMIPhist-all_005 NHISTfrc2_f19_tn14_LESFMIPhist-all_006 NHISTfrc2_f19_tn14_LESFMIPhist-all_007 NHISTfrc2_f19_tn14_LESFMIPhist-all_008 NHISTfrc2_f19_tn14_LESFMIPhist-all_009 NHISTfrc2_f19_tn14_LESFMIPhist-all_010 NHISTfrc2_f19_tn14_LESFMIPhist-all_011 NHISTfrc2_f19_tn14_LESFMIPhist-all_012 NHISTfrc2_f19_tn14_LESFMIPhist-all_013 NHISTfrc2_f19_tn14_LESFMIPhist-all_014 NHISTfrc2_f19_tn14_LESFMIPhist-all_015 NHISTfrc2_f19_tn14_LESFMIPhist-all_016 NHISTfrc2_f19_tn14_LESFMIPhist-all_017 NHISTfrc2_f19_tn14_LESFMIPhist-all_018 NHISTfrc2_f19_tn14_LESFMIPhist-all_019 NHISTfrc2_f19_tn14_LESFMIPhist-all_020 NHISTfrc2_f19_tn14_LESFMIPhist-all_021 NHISTfrc2_f19_tn14_LESFMIPhist-all_022 NHISTfrc2_f19_tn14_LESFMIPhist-all_023 NHISTfrc2_f19_tn14_LESFMIPhist-all_024 NHISTfrc2_f19_tn14_LESFMIPhist-all_025 NHISTfrc2_f19_tn14_LESFMIPhist-all_026 NHISTfrc2_f19_tn14_LESFMIPhist-all_027 NHISTfrc2_f19_tn14_LESFMIPhist-all_028 NHISTfrc2_f19_tn14_LESFMIPhist-all_029 NHISTfrc2_f19_tn14_LESFMIPhist-all_030 '} # loop over these cases 
-: ${REF_PATH_LOCAL:=/cluster/shared/noresm/inputdata/ccsm4_init/NHISTfrc2_f19_tn14_LESFMIPhist-all}
+: ${REF_PATH_LOCAL:=/cluster/projects/nn9039k/users/pgchiu/norcpm-noresm2_rest/NHISTfrc2_f19_tn14_LESFMIPhist-all}
 : ${LINK_RESTART_FILES:=0}
 : ${REF_DATE:=$START_DATE} 
 : ${ADD_PERTURBATION:=1} # only for RUN_TYPE=hybrid
