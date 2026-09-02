@@ -1,6 +1,6 @@
 # EXPERIMENT DEFAULT SETTINGS 
 # USE VARNAME=VALUE ARGUMENT WHEN CALLING SCRIPT TO OVERRIDE DEFAULTS 
-
+ACCOUNT=nn11071k
 
 # experiment settings
 : ${EXPERIMENT:=n209-lm_olivia_30m} # case prefix, not including _YYYYMMDD_memXX suffix 

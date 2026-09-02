@@ -22,20 +22,20 @@
 
 !! files not available on olivia yet. [28Aug2026] pgchiu
 
-!! stream_fldfilename_ndep = '/cluster/projects/nn9039k/users/pgchiu/noresm_extended_forcing_pgchiu/results/fndep_clm_nhist-ssp245_1849-2101_monthly_0.9x1.25_20221123.nc'
-!! stream_year_first_ndep = 1850
-!! stream_year_last_ndep = 2101
-!! 
-!! model_year_align_popdens = 1850
-!! stream_fldfilename_popdens = '/cluster/cache/noresm/noresm-only/lnd/clm2/firedata/clmforc.Li_2018_SSP2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2100_c181205.nc'
-!! stream_year_first_popdens = 1850
-!! stream_year_last_popdens = 2100
-!! 
-!! stream_fldfilename_urbantv = '/cluster/cache/noresm/noresm-only/lnd/clm2/urbandata/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923.nc'
-!! stream_year_first_urbantv = 1850
-!! stream_year_last_urbantv = 2106
-!! 
-!! flanduse_timeseries = '/cluster/cache/noresm/noresm-only/lnd/clm2/surfdata_map/release-clm5.0.18/landuse.timeseries_1.9x2.5_SSP2-4.5_78pfts_CMIP6_simyr1850-2100_c190228.nc'
+stream_fldfilename_ndep = '/cluster/projects/nn9039k/users/pgchiu/noresm_extended_forcing_pgchiu/results/fndep_clm_nhist-ssp245_1849-2101_monthly_0.9x1.25_20221123.nc'
+stream_year_first_ndep = 1850
+stream_year_last_ndep = 2101
+
+model_year_align_popdens = 1850
+stream_fldfilename_popdens = '/cluster/projects/nn9039k/inputdata/lnd/clm2/firedata/clmforc.Li_2018_SSP2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2100_c181205.nc'
+stream_year_first_popdens = 1850
+stream_year_last_popdens = 2100
+
+stream_fldfilename_urbantv = '/cluster/projects/nn9039k/inputdata/lnd/clm2/urbandata/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923.nc'
+stream_year_first_urbantv = 1850
+stream_year_last_urbantv = 2106
+
+flanduse_timeseries = '/cluster/projects/nn9039k/inputdata/lnd/clm2/surfdata_map/release-clm5.0.18/landuse.timeseries_1.9x2.5_SSP2-4.5_78pfts_CMIP6_simyr1850-2100_c190228.nc'
 
 hist_nhtfrq = 0
 
